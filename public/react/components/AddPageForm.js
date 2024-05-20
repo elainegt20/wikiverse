@@ -43,7 +43,7 @@ export const AddPageForm = () => {
     }
   };
 
-  //clear form for cancellation purpouses and reset the isAddingArticle variable for next submit
+  //clear form for cancellation purposes and reset the isAddingArticle variable for next submit
   function clear() {
     if (!isAddingArticle) {
       setTitle("");
